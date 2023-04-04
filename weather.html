@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body background="sat.jpg">
+    <header>
+        <div class="logo-container">
+            <img src="weather1.jpg" alt="logo" style="width: 160px;">
+            <h1>Weather App</h1>
+        </div>
+        <form>
+            <input type="text" id="Search" placeholder="Search the location" autocomplete="off">
+        </form>
+    </header>
+    <div class="content-container">
+        <div class="weather-box">
+            <h2 id="location"></h2>
+            <h2 id="date"></h2>
+            <h2 id="condition"></h2>
+            <div class="weather-details">
+                <div class="weather-icon" id="weather-icon">
+                    <img id="weather-icon-img" src="" alt="Weather Icon">
+                    <div class="weather-info">
+                        <p id="temperature"></p>
+                        <p id="rainfall"></p>
+                        <p id="wind"></p>
+                        <p id="humidity"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

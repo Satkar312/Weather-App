@@ -1,0 +1,152 @@
+/* Center the page content */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-image: url("sat.jpg");
+  background-size: cover;
+}
+
+
+/* Style the header */
+/* Set the navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1;
+}
+
+/* Set the logo styles */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  height: 10px;
+  width: 20px;
+}
+
+/* Set the search box styles */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+  width: 500px; /* adjust as needed */
+}
+
+.search-box button {
+  padding: 8px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Set the weather box styles */
+.weather-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.temperature-box,
+.wind-box,
+.rain-box,
+.humidity-box {
+  flex-basis: calc(25% - 20px);
+  height: 200px;
+  background-color: #f1f1f1;
+  margin-right: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+/* Style the search bar */
+#Search {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+}
+
+/* Style the page content */
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+/* Style the weather boxes */
+.weather-box {
+  width: 550px;
+  height: 330px;
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the weather details */
+.weather-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-info {
+  margin-left: 20px;
+}
+
+/* Style the weather icon */
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-info p {
+  margin: 0;
+  padding: 10px;
+  width: 25%;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+form {
+  width: 70%;
+  margin-right: 0;
+  margin-left: auto;
+}
